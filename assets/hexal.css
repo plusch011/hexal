@@ -1,0 +1,109 @@
+    /* hex container */
+    .hex {
+        width: 180px;
+        height: 208px;
+        overflow: hidden; 
+    }
+    
+    .hcontainer {
+        margin: 10px;
+        display: inline-block;
+        transform: rotate(120deg);
+        visibility: hidden;
+    }
+    
+    .layer1 {
+        transform: rotate(120deg);
+    }
+    
+        /* images */
+    .img-1 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-31.png');
+        background-repeat: no-repeat;
+    }
+    
+    .img-2 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-33.png');
+        background-repeat: no-repeat;
+    }
+    
+    .img-3 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-34.png');
+        background-repeat: no-repeat;
+    }
+    
+    .img-4 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-35.png');
+        background-repeat: no-repeat;
+    }
+    
+    .img-5 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-36.png');
+        background-repeat: no-repeat;
+    }
+    
+    .img-6 {
+        transform: rotate(120deg);
+        visibility: visible;  
+        background: url('../assets/img/layer-44.png');
+        background-repeat: no-repeat;
+    }
+    
+    .img-7 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-37.png');
+        background-repeat: no-repeat;
+    } 
+    
+    .img-8 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-38.png');
+        background-repeat: no-repeat;
+    }
+    
+    .img-9 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-39.png'); 
+        background-repeat: no-repeat;
+    }
+    
+    .img-10 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-40.png');
+        background-repeat: no-repeat;
+    }
+     
+    .img-11 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-41.png');
+        background-repeat: no-repeat;
+    }
+    
+    .img-12 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-43.png');
+        background-repeat: no-repeat;
+    }
+    
+    .img-13 {
+        transform: rotate(120deg);
+        visibility: visible;
+        background: url('../assets/img/layer-42.png');
+        background-repeat: no-repeat;
+    }
