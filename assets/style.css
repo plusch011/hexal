@@ -32,7 +32,7 @@ h2 {
     color: #d7fcf5;
 }
 
-h3 {
+h3, h1 {
     font-family: 'Maven Pro';
     font-size: 1.8rem;
     color: #20816d;
@@ -91,16 +91,20 @@ li {
     padding: 5px;
 }
 
-#port {
-    color: #2eb398;
-}
-
 a {
     color: white;
     text-decoration: none;
 }
 
+#port {
+    color: #2eb398;
+}
 
+a:hover,
+#port:hover {
+    color: #888;
+    transition: 1s linear;
+}
 
 /* slider */
 section {
