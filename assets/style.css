@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Lato';
-    src: url(../assets/fonts/Lato-Regular.ttf) format('truetype');
+    src: url(fonts/Lato-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Lato bold';
-    src: url(../assets/fonts/Lato-Bold.ttf) format('truetype');
+    src: url(fonts/Lato-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Lato black';
-    src: url(../assets/fonts/Lato-Black.ttf) format('truetype');
+    src: url(fonts/Lato-Black.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Maven Pro';
-    src: url(../assets/fonts/MavenPro-Regular.ttf) format('truetype');
+    src: url(fonts/MavenPro-Regular.ttf) format('truetype');
 }
 
 html {
@@ -42,6 +42,7 @@ h3, h1 {
 .grid {
     display: grid;
     grid-template: 63px 721px 341px 564px 43px / 1fr 200px 420px 200px 1fr;
+    min-width: 1100px;
 }
 
 /* nav */
@@ -169,7 +170,7 @@ section {
 .auth {
     transform: rotate(120deg);
     visibility: visible;
-    background: url('../assets/img/image.png');
+    background: url('img/image.png');
     background-repeat: no-repeat;
 }
 
@@ -210,6 +211,7 @@ textarea {
 }
 
 #button {
+    font-family: 'Lato bold';
     background: #2eb398;
     width: 90px;
     float: right;
@@ -220,7 +222,7 @@ textarea {
     position: relative;
     align-self: center;
     top: -21px;
-    right: 20px;
+    right: 32px;
 }
 
 .info p {
@@ -240,17 +242,17 @@ textarea {
 }
 
 .adr:before {
-    content: url(/hexal/assets/img/location.png);
+    content: url(img/location.png);
     padding: 0 5px 0 2px;
 }
 
 .num:before {
-    content: url(/hexal/assets/img/phone.png);
+    content: url(img/phone.png);
     padding: 0 4px 0 1px;
 }
 
 .mal:before {
-    content: url(/hexal/assets/img/mail.png);
+    content: url(img/mail.png);
     padding: 0 3px 0 0;
 }
 
@@ -271,9 +273,11 @@ textarea {
 }
 
 #section-gr {
-    grid-area: 2/ 1 / 3 / 6;
+    grid-area: 2 / 1 / 3 / 7;
     text-align: center;
-    min-width: 1000px;
+    justify-self: center;
+    min-width: 1100px;
+    max-width: 1101px;
 }
 
 #about-gr {
@@ -308,6 +312,7 @@ textarea {
 }
 
 .border-l, .border-r {
+    justify-self: center;
     display: inline-block;
     height: 1px;
     width: 408px;
