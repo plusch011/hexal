@@ -77,19 +77,19 @@ ul {
     
     z-index: 10;
     position: relative;
-    bottom: 23px;
+    bottom: 18px;
     right: 19px;
 }
 
 #logo {
     position: relative;
-    top: 30px;
-    margin: 0 30px;
+    top: 26px;
+    margin: 0 28px;
 } 
 
 li {
     display: inline-block;
-    padding: 5px;
+    padding: 4px;
 }
 
 a {
@@ -145,9 +145,14 @@ section {
 .about-2 h2,
 .about-2 h1 {
     position: relative;
-    top: 33px;
-    line-height: 1.93rem;
+    top: 30px;
+    line-height: 1.6rem;
 }
+
+.about-2 p {
+    line-height: 2.1rem;
+}
+
 
 .about-2 h2 {
     margin-bottom: 0;
@@ -164,7 +169,7 @@ section {
     margin: 0px;
     float: right;
     position: relative;
-    top: 46px;
+    top: 53px;
 }
 
 .auth {
@@ -174,8 +179,12 @@ section {
 .form {
     grid-area: 4 / 2 / 5 / 4;
     align-self: center;
-    width: 548px;
+    width: 580px;
     padding-left: 20px;
+    position: relative;
+    top: -8px;
+
+    line-height: 2.3rem;
 }
 
 form h2 {
@@ -185,12 +194,14 @@ form h2 {
 form h3 {
     margin-top: -20px;
     color: #bebebe;
+    margin-bottom: 5px;
+
 }
 
 input, textarea {
     font-family: 'Lato';
     font-size: 1.2rem;
-    margin-top: 8px;
+    margin-top: 15px;
     background: #454545;
     color: #bebebe;
     border: 0px; 
@@ -198,12 +209,12 @@ input, textarea {
 
 input {
     height: 38px;
-    width: 540px;
+    width: 570px;
     padding-left: 8px;
 }
 
 textarea {
-    width: 532px;
+    width: 562px;
     padding: 8px;
 }
 
@@ -212,14 +223,17 @@ textarea {
     background: #2eb398;
     width: 90px;
     float: right;
+    position: relative;
+    top: -12px;
 }
 
 .info {
     grid-area: 4 / 4 / 5 / 5;
     position: relative;
     align-self: center;
-    top: -21px;
-    right: 32px;
+    top: -40px;
+    line-height: 2.1rem;
+    /* right: 32px; */
 }
 
 .info p {
@@ -228,6 +242,12 @@ textarea {
     font-size: 1.2rem;
     color: #bebebe;
     text-align: justify;
+}
+
+.info-2 {
+    position: relative;
+    top: -4px;
+    line-height: 1.5rem;
 }
 
 .info p strong {
@@ -240,7 +260,7 @@ textarea {
 
 .adr:before {
     content: url(img/location.png);
-    padding: 0 5px 0 2px;
+    padding: 0 6px 0 3px;
 }
 
 .num:before {
