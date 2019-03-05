@@ -6,7 +6,7 @@
     }
 
     .hcontainer {
-        margin: 10px;
+        margin: 9px;
         display: inline-block;
         transform: rotate(120deg);
         visibility: hidden;
